@@ -5,15 +5,13 @@ namespace Tyuiu.ChigurovMV.Sprint3.Task2.V15.Lib
     {
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
-            double a = 0.5;
-            int start, i = 1;
-            int stop = 20;
+            int i = startValue;
             double sum = 0;
             do
             {
-                sum += (Math.Pow(a, i) + 0.5) * Math.Cos(i);
+                sum += (Math.Pow(value, i) + 0.5) * Math.Cos(i);
                 i++;
-            } while (i <= stop);
+            } while (i <= stopValue);
             return Math.Round(sum, 3);
         }
     }

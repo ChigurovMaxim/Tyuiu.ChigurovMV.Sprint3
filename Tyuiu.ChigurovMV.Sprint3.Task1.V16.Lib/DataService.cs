@@ -6,13 +6,11 @@ namespace Tyuiu.ChigurovMV.Sprint3.Task1.V16.Lib
     {
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
-            double x = 0.7;
-            int start, i = 1;
-            int stop = 15;
+            int i = startValue;
             double sum = 0;
-            while (i <= stop)
+            while (i <= stopValue)
             {
-                sum += (Math.Pow(x, 2) * Math.Sin(i)) + 1;
+                sum += (Math.Pow(value, 2) * Math.Sin(i)) + 1;
                 i++;
             }
             return Math.Round(sum, 3);

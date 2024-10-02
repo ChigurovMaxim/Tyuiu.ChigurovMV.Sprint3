@@ -4,21 +4,17 @@
     {
         static void Main(string[] args)
         {
-            int a = 6;
-            int b = 4;
-            int c = 8;
-            int d = 7;
-            int i = 1;
-            do
+            string str = "?d!, 5gh. !!s2";
+            string result = "";
+            foreach (char c in str)
             {
-                b++;
-                b = a + c;
-                c = b - a;
-                d = (a - c) - i;
-                i++;
-            } while (i < 4);
-            
-            Console.WriteLine(d);
+                if (Char.IsDigit(c))
+                {
+                    result += c;
+                }
+            }
+            int number = Int32.Parse(result);
+            Console.WriteLine(number);
         }
     }
 }
