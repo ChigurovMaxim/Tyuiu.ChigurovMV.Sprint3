@@ -16,12 +16,23 @@ namespace Tyuiu.ChigurovMV.Sprint3.Task1.V16
             Console.WriteLine("* Выполнил: Чигуров Максим Владиславович | ПКТб-24-1                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("*  вычисляет результат по формуле a*b*c/(a+b+c) и печатает его на экране. *");
+            Console.WriteLine("* Написать программу используя цикл while, которая вычисляет сумму ряда   *");
+            Console.WriteLine("* по формуле, при х=0,7                                                   *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+            double x = 0.7;
+            int start = 1;
+            int stop = 15;
+            Console.WriteLine("* Переменная X = " + x);
+            Console.WriteLine("* Старт шага = " + start);
+            Console.WriteLine("* Конец шага = " + stop);
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+            double res = ds.GetSumSeries(x, start, stop);
+            Console.WriteLine(res);
         }
     }
 }

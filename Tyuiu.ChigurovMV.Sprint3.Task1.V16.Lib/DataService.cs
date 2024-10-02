@@ -7,7 +7,7 @@ namespace Tyuiu.ChigurovMV.Sprint3.Task1.V16.Lib
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
             double x = 0.7;
-            int start, i = i = 1;
+            int start, i = 1;
             int stop = 15;
             double sum = 0;
             while (i <= stop)
