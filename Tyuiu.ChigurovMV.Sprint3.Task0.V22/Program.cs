@@ -10,7 +10,7 @@ namespace Tyuiu.ChigurovMV.Sprint3.Task0.V22
             Console.Title = "Спринт #3 | Выполнил: Чигуров М. В. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
-            Console.WriteLine("* Тема: Создания итогового решения по спринту                             *");
+            Console.WriteLine("* Тема: Оператор цикла for                                                *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #22                                                             *");
             Console.WriteLine("* Выполнил: Чигуров Максим Владиславович | ПКТб-24-1                      *");
