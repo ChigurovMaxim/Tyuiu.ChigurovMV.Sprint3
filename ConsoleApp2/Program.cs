@@ -4,17 +4,19 @@
     {
         static void Main(string[] args)
         {
-            string str = "?d!, 5gh. !!s2";
-            string result = "";
-            foreach (char c in str)
+            int x;
+            double sp = 0;
+            int i = 0;
+            for (x = -2; x <= 2; x++)
             {
-                if (Char.IsDigit(c))
+                if (x == 0)
                 {
-                    result += c;
+                    break;
                 }
+                sp = sp + (3*x-x);
+                i++;
             }
-            int number = Int32.Parse(result);
-            Console.WriteLine(number);
+            Console.WriteLine(sp);
         }
     }
 }
